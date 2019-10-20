@@ -2,18 +2,17 @@
 
 ## Daftar Isi
 
-- Fungsi
-    + Pengenalan Fungsi
-    + Tujuan Fungsi
-    + Pendefinisan Fungsi
-    + Prototipe Fungsi
-    + Parameter Fungsi
-    + Pemanggilan Fungsi
-    + Nilai _return_ Fungsi
-- Fungsi Rekursif
-    + Pengenalan Fungsi Rekursif
-    + Base Case
-    + Recursive Case
+- [Fungsi](#fungsi)
+    + [Pengenalan Fungsi](#pengenalan-fungsi)
+    + [Tujuan Fungsi](#tujuan-fungsi)
+    + [Pendefinisan Fungsi](#pendefinisian-fungsi)
+    + [Prototipe Fungsi](#prototipe-fungsi)
+    + [Parameter Fungsi](#parameter-fungsi)
+    + [Pemanggilan Fungsi](#pemanggilan-fungsi)
+    + [Nilai _return_ Fungsi](#nilai-return-fungsi)
+- [Fungsi Rekursif](#fungsi-rekursif)
+    + [Pengenalan Fungsi Rekursif](#pengenalan-fungsi-rekursif)
+    + [Recursive Case dan Base Case](#recursive-case-dan-base-case)
 
 # Fungsi
 
@@ -234,16 +233,17 @@ Recursive Case adalah kasus dimana sebuah fungsi diharuskan untuk memanggil diri
 
 Kita ambil contoh fungsi rekursif untuk memangkatkan suatu bilangan bulat. Didefinisikan perpangkatan sebuah bilangan a pangkat m sebagai **power(a, m)**, berarti dapat dituliskan :
 
-```
-power(a,m) = a * a * a ... (sebanyak m-kali)
-```
-atau dapat didefinisikan sebagai fungsi rekursif
-```
-power(a, m) = a * power(a, m-1)
-dengan base case ketika power(a, 0) = 1
-```
+![](img/eq1.png)
 
-Dapat diperhatikan bahwa base case dari fungsi **power(a, m)** adalah ketika power(a, 0) adalah 1. Ini benar karena memang bilangan berapapun pangkat 0 hasilnya adalah 1.
+atau dapat didefinisikan sebagai fungsi rekursif
+
+![](img/eq2.png)
+
+dengan base case-nya adalah :
+
+![](img/eq3.png)
+
+Dapat diperhatikan bahwa base case dari fungsi **power(a, m)** adalah ketika power(a, 0) yang menghasilkan 1. Ketika sudah mencapai base case, maka tidak perlu melakukan pemanggilan fungsi lagi.
 
 ```c
 #include <stdio.h>
@@ -262,7 +262,7 @@ int main()
 ```
 # Soal Latihan
 
-### Soal 1
+## Soal 1
 
 Buatlah program dan **implementasikan fungsi rekursif** untuk menentukan nilai dari N! (faktorial).
 
@@ -277,7 +277,7 @@ Buatlah program dan **implementasikan fungsi rekursif** untuk menentukan nilai d
 ```
 120
 ```
-### Soal 2
+## Soal 2
 
 Diberikan sebuah pola bilangan dengan polanya adalah 1, 5, 14, 30, ... dst. Buatlah sebuah program dan **implementasikan fungsi rekursif** untuk menentukan bilangan ke-n dari pola tersebut.
 
@@ -292,18 +292,17 @@ Diberikan sebuah pola bilangan dengan polanya adalah 1, 5, 14, 30, ... dst. Buat
 5
 ```
 
-### Soal 3
+## Soal 3
 
 Buatlah program dan **implementasikan fungsi** untuk menentukan bilangan terbesar dan terkecil dari array A dengan N bilangan.
 
-**Contoh Input 1**
+**Contoh Input**
 
 ```
-5
-1 2 3 4 5
+5 2 3 4 5
 ```
 
-**Contoh Output 1**
+**Contoh Output**
 
 ```
 max: 5
