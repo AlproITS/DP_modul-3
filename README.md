@@ -260,3 +260,52 @@ int main()
     return 0;
 }
 ```
+# Soal Latihan
+
+### Soal 1
+
+Buatlah program dan **implementasikan fungsi rekursif** untuk menentukan nilai dari N! (faktorial).
+
+**Contoh Input**
+
+```
+5
+```
+
+**Contoh Output**
+
+```
+120
+```
+### Soal 2
+
+Diberikan sebuah pola bilangan dengan polanya adalah 1, 5, 14, 30, ... dst. Buatlah sebuah program dan **implementasikan fungsi rekursif** untuk menentukan bilangan ke-n dari pola tersebut.
+
+**Contoh Input**
+
+```
+2
+```
+**Contoh Output**
+
+```
+5
+```
+
+### Soal 3
+
+Buatlah program dan **implementasikan fungsi** untuk menentukan bilangan terbesar dan terkecil dari array A dengan N bilangan.
+
+**Contoh Input 1**
+
+```
+5
+1 2 3 4 5
+```
+
+**Contoh Output 1**
+
+```
+max: 5
+min: 1
+```
