@@ -16,6 +16,7 @@
 - [Fungsi Rekursif](#fungsi-rekursif)
     + [Pengenalan Fungsi Rekursif](#pengenalan-fungsi-rekursif)
     + [Recursive Case dan Base Case](#recursive-case-dan-base-case)
+- [Soal Latihan](#soal-latihan)
 
 # Fungsi
 
