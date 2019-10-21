@@ -369,7 +369,8 @@ Buatlah program dan **implementasikan fungsi** untuk menentukan bilangan terbesa
 **Contoh Input**
 
 ```
-5 2 3 4 5
+5 
+1 2 3 4 5
 ```
 
 **Contoh Output**
